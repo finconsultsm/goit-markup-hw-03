@@ -174,8 +174,8 @@ color: #fff;
 .container-non {
 padding: 120px 156px;
 }
-.visually-hidden {
-    visibility: none;
+.non-title {
+    visibility: hidden;
 }
 
 .non-list {
