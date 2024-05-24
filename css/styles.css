@@ -148,6 +148,7 @@ border-radius: 4px;
 border: none;
 padding: 16px 32px;
 margin: 0 auto;
+cursor: pointer;
 }
 
 .first-btn-text {
@@ -161,7 +162,6 @@ color: #fff;
 .first-btn-text:hover,
 .first-btn-text:focus {
     background-color: #404BBF;
-    cursor: pointer;
 }
 
 /*------- -----------*/
