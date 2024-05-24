@@ -175,16 +175,16 @@ color: #fff;
 padding: 120px 156px;
 }
 .visually-hidden {
-visibility: hidden;
+    visibility: none;
 }
 
 .non-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .non-items {
-    width: calc((100% - 72px) / 4);
 }
 
 .non-subtitle {
