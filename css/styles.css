@@ -14,7 +14,7 @@ a {
 }
 
 .container {
-width: 1158 px;
+width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
@@ -292,9 +292,6 @@ margin-bottom: 32px;
 }
 
 .container-portfolio {
-  padding: 120px 156px;  
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 
 .portfolio-title {
