@@ -308,6 +308,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 color: #2e2f42;
 }
 
@@ -321,6 +322,7 @@ color: #434455;
 
 .portfolio-block {
 padding: 32px 16px;
+border: 1px solid #e7e9fc;
 }
 /*------- -----------*/
 /*------- Futter -----------*/
