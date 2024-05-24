@@ -167,8 +167,15 @@ color: #fff;
 /*------- -----------*/
 
 /*------- Non -----------*/
+.non {
+    padding: 120px 0;
+}
+
 .container-non {
 padding: 120px 156px;
+}
+.visually-hidden {
+visibility: hidden;
 }
 
 .non-list {
@@ -177,7 +184,7 @@ padding: 120px 156px;
 }
 
 .non-items {
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .non-subtitle {
