@@ -191,6 +191,8 @@ padding: 120px 156px;
 .non-list {
     display: flex;
     gap: 24px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .non-items {
@@ -240,7 +242,8 @@ margin-bottom: 72px;
 display: flex;
 flex-wrap: wrap;
 gap: 24px;
-width: calc((100% - 72px) / 4);
+padding-left: 0;
+margin: 0;
 background-color: #FFFFFF      
 }
 
@@ -253,6 +256,7 @@ background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
 padding: 0px 0px 32px 0px;
 text-align: center;
+width: calc((100% - 72px) / 4);
 }
 
 .team-img {
@@ -309,6 +313,8 @@ margin-bottom: 72px;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .portfolio-item {
