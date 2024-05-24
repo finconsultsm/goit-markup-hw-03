@@ -251,6 +251,7 @@ margin-bottom: 32px;
 /*------- -----------*/
 /*------- Protfolio -----------*/
 .portfolio {
+    padding: 120px 0 120px 0;
 }
 
 .container-portfolio {
@@ -299,8 +300,7 @@ padding: 32px 16px;
 /*------- Futter -----------*/
 .footer {
 background-color: #2e2f42;
-padding-top: 100px;
-padding-bottom: 100px;
+padding: 100px 0;
 }
 
 .container-footer {
