@@ -30,6 +30,7 @@ ul { list-style: none; padding-left: 0; margin: 0; }
 
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
+    margin: 0;
 }
 /*------- -----------*/
 
@@ -232,10 +233,6 @@ background: #f4f4fd;
 padding-top: 120px;
 }
 
-.container-team {
-
-}
-
 .team-title {
 font-weight: 700;
 font-size: 36px;
@@ -253,9 +250,6 @@ flex-wrap: wrap;
 gap: 24px;
 align-items: center;
 margin: 0 auto;
-}
-
-.team-block {
 }
 
 .team-item {
@@ -294,9 +288,6 @@ margin-bottom: 32px;
 /*------- Protfolio -----------*/
 .portfolio {
     padding: 120px 0 120px 0;
-}
-
-.container-portfolio {
 }
 
 .portfolio-title {
@@ -338,7 +329,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;    
+color: #434455;  
 }
 
 .portfolio-block {
@@ -351,9 +342,6 @@ border-top: none;
 .footer {
 background-color: #2e2f42;
 padding: 100px 0;
-}
-
-.container-footer {
 }
 
 .footer-logo {
