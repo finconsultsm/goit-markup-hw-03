@@ -14,10 +14,12 @@ a {
 }
 
 .container {
-width: 1158px;
+max-width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
+margin-top: 0;
+
 }
 
 img {
@@ -25,14 +27,16 @@ img {
 }
 
 ul { list-style: none; padding-left: 0; margin: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
 /*------- -----------*/
 
 
 /*------- Header -----------*/
 
 .header {
-padding-top: 32px;
-padding-bottom: 24px;
 border-bottom: 1px solid #e7e9fc
 }
 
@@ -112,15 +116,17 @@ color: #404bbf;
 
 .first { 
 background-color: #2e2f42;;
-padding: 188px 0;
 }
 
 .first-container {
-padding: 188px 472px;
+    display: block;
 align-items: center;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 .first-name {
+    min-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -129,7 +135,11 @@ align-items: center;
     color: #fff;
     max-width: 496px;
     margin-bottom: 48px;
+    margin-left: 0 auto;
+margin: 0 auto;
+margin-bottom: 48px;
 }
+
 
 .first-btn-text {
     display: block;
@@ -150,6 +160,7 @@ border: none;
 padding: 16px 32px;
 margin: 0 auto;
 cursor: pointer;
+max-width: 496px;
 }
 
 .first-btn-text {
@@ -168,12 +179,9 @@ color: #fff;
 /*------- -----------*/
 
 /*------- Non -----------*/
-.non {
-    padding: 120px 0;
-}
 
 .container-non {
-padding: 120px 156px;
+padding-top: 120px;
 }
 
 .visually-hidden {
@@ -194,6 +202,7 @@ padding: 120px 156px;
     gap: 24px;
     padding-left: 0;
     margin: 0;
+    margin-bottom: 120px;
 }
 
 .non-items {
@@ -221,11 +230,10 @@ color: #434455;
 .team {
 background: #f4f4fd;
 padding-top: 120px;
-padding-bottom: 120px;
 }
 
 .container-team {
-padding: 120px 156px;
+
 }
 
 .team-title {
@@ -243,26 +251,23 @@ margin-bottom: 72px;
 display: flex;
 flex-wrap: wrap;
 gap: 24px;
-padding-left: 0;
-margin: 0;
-background-color: #FFFFFF      
+align-items: center;
+margin: 0 auto;
 }
 
 .team-block {
-  padding: 32px 0;  
 }
 
 .team-item {
 background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
-padding: 0px 0px 32px 0px;
 text-align: center;
 width: calc((100% - 72px) / 4);
+margin-bottom: 120px;
 }
 
 .team-img {
-margin: 0 auto;
-margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .team-subtitle {
@@ -349,7 +354,6 @@ padding: 100px 0;
 }
 
 .container-footer {
-padding: 100px 1020px 100px 156px;
 }
 
 .footer-logo {
@@ -369,7 +373,7 @@ color: #f4f4fd;
 }
 
 .footer-text {
-font-weight: 400;
+max-width: 264px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
