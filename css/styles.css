@@ -128,7 +128,7 @@ padding: 0;
 }
 
 .first-name {
-
+max-width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -141,13 +141,8 @@ margin-bottom: 48px;
 
 
 .first-btn-text {
-    display: block;
-    margin: 0 auto;
-    min-width: 169px;
-}
-
-.first-btn-text {
-font-family: "Roboto", sans-serif;
+display: block;
+min-width: 169px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -159,20 +154,11 @@ border: none;
 padding: 16px 32px;
 margin: 0 auto;
 cursor: pointer;
-max-width: 496px;
-}
-
-.first-btn-text {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
 }
 
 .first-btn-text:hover,
 .first-btn-text:focus {
-    background-color: #404BBF;
+background-color: #404BBF;
 }
 
 /*------- -----------*/
@@ -258,7 +244,11 @@ width: calc((100% - 72px) / 4);
 }
 
 .team-img {
-    padding-bottom: 32px;
+}
+
+.team-block {
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .team-subtitle {
@@ -312,13 +302,13 @@ width: calc((100% - 48px) / 3);
 }
 
 .portfolio-img {
-margin-bottom: 32px;
 }
 
 .portfolio-block {
 border: 1px solid #e7e9fc;
 border-top: none;
-padding-left: 16px;
+padding: 32px 16px;
+
 }
 
 .portfolio-subtitle {
@@ -336,7 +326,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;  
-margin-bottom: 32px;
 }
 
 
